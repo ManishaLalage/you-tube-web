@@ -19,8 +19,7 @@ const ButtonList = () => {
       {list.map((list, index) => (
         <button
           key={index}
-          className="bg-gray-100 px-4 m-1 w-auto h-9 rounded-xl"
-        >
+          className="bg-gray-100 px-4 m-1 w-auto h-9 rounded-xl"  >
           {list}
         </button>
       ))}
