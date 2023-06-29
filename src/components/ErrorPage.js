@@ -10,7 +10,6 @@ const ErrorPage = () => {
       <h2  className='font-semibold  mx-72 p-2 text-xl'>please let the developer know.</h2>
       <h1>{error.status}</h1>
     </div>
-  );
-}
+  );}
 
 export default ErrorPage;
