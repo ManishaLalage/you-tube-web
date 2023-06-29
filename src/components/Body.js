@@ -8,6 +8,7 @@ const Body = () => {
       <Sidebar/>
       <Outlet/>
     </div>
-  );}
+  );
+}
 
 export default Body;
